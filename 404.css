@@ -54,10 +54,10 @@ main img {
 }
 
 footer {
-  margin-top: 10vmin;
+  margin-top: 12%;
   margin-bottom: 1vmin;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
 }
@@ -71,5 +71,16 @@ footer {
 @media (max-width: 1024px) {
   main {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 15vh;
+  }
+
+  footer {
+    margin-top: 26%;
+    font-size: 3vmin;
   }
 }
